@@ -42,7 +42,6 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 187px;
-    transition: .3s;
 }
 ul {
     margin: 0;
