@@ -1,3 +1,5 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
+
  body {
     margin: 0;
     padding: 0;
@@ -40,6 +42,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 187px;
+    transition: .3s;
 }
 ul {
     margin: 0;
@@ -98,3 +101,20 @@ ul li:nth-child(5) {
       opacity:1;
     }
   }
+.buttons {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.buttons button {
+    width: 140px;
+    height: 30px;
+    color: #fff;
+    background-color: #6f4e37;
+    font-size: 16px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    border-radius: 15px;
+    border: 1px solid #6f4e37;
+
+}

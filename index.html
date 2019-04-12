@@ -9,7 +9,7 @@
 </head>
 <body class="fade-in">
     <div class="cup">
-        <img src="img/cream.png" alt="">
+        <img id="cream" src="img/cream.png" alt="cream">
         <ul>
             <li></li>
             <li></li>
@@ -18,6 +18,17 @@
             <li></li>
         </ul>
     </div>
+    <div class="buttons">
+        <button onclick="show()">ნაღებით</button>
+        <button onclick="hide()">ნაღების გარეშე</button>
+    </div>
+    <script>
+        function show() {
+            document.getElementById("cream").style.display = "block";
+            }
+        function hide() {
+            document.getElementById("cream").style.display = "none";
+            }
     </script>
 </body>
 </html>
